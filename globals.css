@@ -1,0 +1,91 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Average+Sans:400|Average:400|Montserrat:400,800");
+@font-face {
+  font-family: "ITC Avant Garde Gothic Pro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ITC Avant Garde Gothic Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir LT Pro-65Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/AvenirLTProMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir LT Std-95Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/AvenirLTStd-Book.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir LT Pro-95Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/AvenirLTProBlack.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir LT Std-55Roman";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Avenir-Roman.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Avenir LT Pro-55Roman";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AvenirLTProBook.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir LT Pro-85Heavy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AvenirLTProHeavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir LT Std-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AvenirLTStd-Book.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir LT Std-Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/AvenirLTStd-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir LT Pro-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AvenirLTProRoman.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir LT Pro-Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/AvenirLTPro-Black.otf") format("opentype");
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
